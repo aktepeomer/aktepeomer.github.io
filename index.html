@@ -1,183 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe - CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #0779e4 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        .showcase {
-            min-height: 400px;
-            background: #0779e4;
-            color: #fff;
-            text-align: center;
-            padding-top: 100px;
-        }
-        .showcase h1 {
-            font-size: 55px;
-        }
-        .section {
-            padding: 20px;
-            background: #fff;
-            margin: 20px 0;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Ömer Aktepe</title>
+  </head>
+  <body>
+
+    <!--header-->
     <header>
-        <div class="container">
-            <h1>Ömer Aktepe</h1>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#miscellaneous">Miscellaneous</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+      header maybe something here
     </header>
-    <section class="showcase">
-        <div class="container">
-            <h1>This site is under construction</h1>
-            <p>Your job title or objective goes here.</p>
+
+    <!--navigation-->
+    <nav>
+      <ul>
+        <li><img src="files/picture.jpg" alt="Personal picture"></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+      <!--about-->
+      <section id="about">
+        <div class="section_title"><h1>About</h1></div>
+        <div class="card">
+          Motivated and detail-oriented Junior Data Scientist with a strong foundation in mathematics and numerical analysis. Proficient in Python and passionate about leveraging data-driven insights to solve complex problems. Eager to contribute to innovative projects and grow in the field of data science.          
         </div>
-    </section>
-    <div class="container">
-        <section id="about" class="section">
-            <h2>About Me</h2>
-            <p>somethings</p>
-        </section>
-        <section id="experience" class="section">
-            <h2>Experience</h2>
-            <p><strong>Job Title</strong> - Company Name</p>
-            <p>(Year - Year)</p>
-            <ul>
-                <li>Responsibility or achievement 1</li>
-                <li>Responsibility or achievement 2</li>
-                <li>Responsibility or achievement 3</li>
-            </ul>
-        </section>
-        <section id="projects" class="section">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Project Name</strong>: Brief description of the project and what it entailed.</li>
-                <li><strong>Another Project</strong>: Brief description of the project and what it entailed.</li>
-                <li><strong>Yet Another Project</strong>: Brief description of the project and what it entailed.</li>
-            </ul>
-        </section>
-        <section id="skills" class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li><strong>Programming Languages</strong>: Python, Matlab, SQL</li>
-                <li><strong>ML Frameworks</strong>: PyTorch, TensorFlow, Keras</li>
-                <li><strong>ML Algorithms</strong>: Reinforcement Learning, Deep Learning, Transformers, CNN, Tree based algorithms</li>
-                <li><strong>Natural Language Processing</strong>: LLMs, Transformer Models (BERT, GPT), Multimodal Embeddings</li>
-                <li><strong>Cloud Platforms</strong>: Google Cloud Platform (GCP), Azure</li>
-                <li><strong>MLOps/DevOps Tools</strong>: Docker, Jenkins, Airflow, MLflow, Kubeflow</li>
-                <li><strong>Statistical Methods</strong>: Bayesian and frequentist analysis, A/B testing, causal modeling</li>
-                <li><strong>Optimization Techniques</strong>: Linear programming, high-dimensional optimization, parallel computing</li>
-                <li><strong>Databases</strong>: MySQL, PostgreSQL, MongoDB</li>
-                <li><strong>Languages</strong>: English(Fluent), Turkish(Native)</li>
-            </ul>
-        </section>
-        <section id="education" class="section">
-            <h2>Education</h2>
-            <p><strong>The University of Arizona:</strong> (2017 - 2021)</p>
-            <ul>
-                <li>PhD in Mathematics
-                    <p>Dropped due to Covid related reasons</p>
-                    <p>Explanation: Brief explanation of your thesis topic and research.</p>
-                </li>
-                <li>MSc in Mathematics
-                    <p>GPA: 4.0</p>
-                    <p>
-                        Thesis: 
-                        <a href="files/Arizona%20Thesis/Discontinuous%20Galerkin%20Methods%20For%20One%20And%20Two%20Dimensional%20Schrodinger%20Equations.pdf">Discontinuous Galerkin Methods For One And Two Dimensional Schrodinger Equations</a>
-                        (Codes:
-                            <a target="_blank" download="1D.zip" href="/files/Arizona%20Thesis/1D.zip">1D</a>
-                            and 
-                            <a target="_blank" download="2D.zip" href="/files/Arizona%20Thesis/2D.zip">2D</a>
-                        )
-                        
-                    </p> 
-                    <p>Explanation: Brief explanation of your thesis topic and research.</p>
-                </li>
-            </ul>
-            <p><strong>Boğaziçi University:</strong> (2007 - 2016   )</p>
-            <ul>
-                <li>MSc in Mathematics
-                    <p>GPA: 4.0</p>
-                    <p>Thesis: "Title of Your Thesis"</p>
-                    <p>Explanation: Brief explanation of your thesis topic and research.</p>
-                </li>
-                <li>BSc in Mathematics
-                    <p>GPA: 4.0</p>
-                    <p>Explanation: Brief explanation of your thesis topic and research.</p>
-                </li>
-            </ul>
-        </section>
-        <section id="miscellaneous" class="section">
-            <h2>Miscellaneous</h2>
-            <ul>
-                <li>Generalized Linear Model project: 
-                    <a href="/files/Normal%20GLM.pdf">Problem,</a> 
-                    <a href="https://www.math.utah.edu/~sergazy/statistics/Generalized%20Linear%20Model/Normal_GLM_Project.R">R file,</a> 
-                    <a href="https://www.math.utah.edu/~sergazy/statistics/Generalized%20Linear%20Model/Normal_GLM_Project.html">Analysis output</a>
-                </li>
-            </ul>
-        </section>
-        <section id="contact" class="section">
-            <h2>Contact</h2>
-            <p><a href="mailto:omeraktepeboun@gmail.com">omeraktepeboun@gmail.com</a></p>
-            <p><a href="https://github.com/aktepeomer">github.com/aktepeomer</a></p>
-            <p><a href="https://www.linkedin.com/in/omeraktepe/">linkedin.com/in/omeraktepe</a></p>
-            <p>Phone: (***)-***-****</p>
-            <p>İstanbul, Turkey</p>
-        </section>
-    </div>
-    <footer>
-        <p>John Doe &copy; 2024</p>
-    </footer>
-</body>
+      </section>
+
+      <!--experience-->
+      <section id="experience">
+        <div class="section_title"><h1>Experience</h1></div>
+
+        <div class="card">
+          <b>Freelance Data Scientist/Software Developer:</b> 2021-2024
+          <br>Collaborated with teams to optimize algorithms, improving codebase efficiency for multiple projects
+          <br>Implemented robust code reviews and debugging, ensuring high-quality software solutions
+          <br>Developed and fine-tuned machine learning models using Python, enhancing predictive accuracy and performance
+        </div>
+
+        <div class="card">
+          <b>Boğaziçi University:</b> Graduate Asistant, 2013-2017
+          <br>Conducted research on differential equations, numerical analysis, Galerkin methods and optimization methods
+          <br>Led problem sessions in various topics of mathematics such as probability, statistics, discrete mathematics, numerical analysis, calculus, differential equations, and linear algebra
+        </div>
+
+        <div class="card">
+          <b>The University of Arizona:</b> Graduate Asistant, Lecturer, 2017-2021 
+          <br>Conducted research on differential equations, numerical analysis, Galerkin methods, and optimization methods
+          <br>Assisted and lectured in various topics of mathematics such as calculus, probability and statistics
+        </div>
+      </section>
+
+      <!--skills-->
+      <section id="skills">
+        <div class="section_title"><h1>Skills</h1></div>
+        <div class="card">
+          <ul>
+            <li><b>Technical:</b> Data Science, Mathematics, Data Structures and Algorithms</li>
+            <li><b>Mathematical Expertise:</b> Numerical Analysis, Probability, Linear Algebra</li>
+            <li><b>Programming Languages:</b> Python, Matlab, HTML, CSS, C</li>
+            <li><b>Data Science Libraries:</b> Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, XGBoost, PySpark, PyTorch, TensorFlow, Keras</li>
+            <li><b>Tools:</b> Jupyter Notebook, Git, Docker, SQL</li>
+            <li><b>Languages:</b> English(Fluent), Turkish(Native)</li>
+          </ul>
+        </div>
+      </section>
+
+      <!--education-->
+      <section id="education">
+        <div class="section_title"><h1>Education</h1></div>
+
+        <div class="card">
+          <b>Boğaziçi University:</b> BSc in Mathematics, 2007-2013
+          <br>GPA: 3.51
+        </div>
+
+        <div class="card">
+          <b>Boğaziçi University:</b> MSc in Mathematics, 2013-2016
+          <br>Thesis: 
+          <a href="files/Bogazici Thesis/Efficient Bases For The Galerkin Solution Of Multiple-scattering Problems.pdf">Efficient Bases For The Galerkin Solution Of Multiple-scattering Problems</a>
+          (<a href="files/Bogazici Thesis/codes.rar">Codes</a>
+            and
+            <a href="files/Bogazici Thesis/presentation.pdf">Presentation</a>)
+          <br>GPA: 3.48
+        </div>
+
+        <div class="card">
+          <b>The University of Arizona:</b> MSc in Mathematics, 2017-2021
+          <br>Thesis: 
+          <a href="files/Arizona Thesis/Discontinuous Galerkin Methods For One And Two Dimensional Schrodinger Equations.pdf">Discontinuous Galerkin Methods For One And Two Dimensional Schrodinger Equations</a>
+          (Codes:
+          <a href="files/Arizona Thesis/1D.zip">1D</a> and 
+          <a href="files/Arizona Thesis/2D.zip">2D</a>)
+          <br>GPA: 3.83
+        </div>
+
+        <div class="card">
+          <b>The University of Arizona:</b> Phd in Mathematics, 2017-2021
+          <br>Dropped due to Covid related reasons
+          <br>GPA: 3.83
+        </div>
+      </section>
+
+      <!--Miscellaneous-->
+
+      <!--contact-->
+      <section id="contact">
+        <div class="section_title"><h1>Contact</h1></div>
+        <div class="card">
+          <ul>
+            <li>
+              <b>Mail:</b>
+              <a href="mailto:omeraktepeboun@gmail.com">omeraktepeboun@gmail.com</a>
+            </li>
+            <li>
+              <b>Github:</b>
+              <a href="https://github.com/aktepeomer">github.com/aktepeomer</a>
+            </li>
+            <li>
+              <b>Linkedin:</b>
+              <a href="https://www.linkedin.com/in/omeraktepe/">linkedin.com/in/omeraktepe/</a>
+            </li>
+            <li>
+              <b>Leetcode:</b>
+              <a href="https://leetcode.com/u/omeraktepe/">leetcode.com/u/omeraktepe/</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
