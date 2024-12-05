@@ -16,8 +16,6 @@ nav {
     left: 0;
     height: 100%;
     width: 30%;
-
-    font-size: fit-content;
 }
 
 nav a {
@@ -26,8 +24,7 @@ nav a {
     text-decoration: none;
     margin: 10px;
     padding: 10px;
-
-    font-size: fit-content;    
+    display: block;
 }
 
 nav img {
@@ -41,6 +38,7 @@ nav li {
     text-align: left;
 
     font-size: fit-content;
+    font-size: 1.5em;
 }
 
 main {
