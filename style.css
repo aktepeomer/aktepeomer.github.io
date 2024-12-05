@@ -15,7 +15,7 @@ nav {
     top: 0;
     left: 0;
     height: 100%;
-    width: 30%;
+    width: 200px;
 }
 
 nav a {
@@ -38,12 +38,12 @@ nav li {
     text-align: left;
 
     font-size: fit-content;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 main {
     background-color: rgba(195, 224, 205, 0.541);
-    margin-left: 30%;
+    margin-left: 200px;
 }
 
 .section_title {
