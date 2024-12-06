@@ -85,6 +85,8 @@ ul {
         margin-right: 20px;
     }
     nav li {
+        padding-top: 5px;
+        padding-bottom: 5px;
         text-align: right;
     }
     nav a {
@@ -95,4 +97,7 @@ ul {
         margin-top: 320px;
         margin-left: 0px;
     }
+    section {
+        scroll-margin-top: 320px;
+      }
   }
