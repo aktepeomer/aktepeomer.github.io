@@ -96,4 +96,8 @@ ul {
         margin-top: 300px;
         margin-left: 0px;
     }
+
+    section {
+        scroll-margin-top: 300px;
+      }
   }
